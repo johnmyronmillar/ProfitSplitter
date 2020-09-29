@@ -64,5 +64,5 @@ contract DeferredEquityPlan {
     }
     // function fastforward() public {
     //     fakenow += 100 days;
-    }
+    // }
 }
