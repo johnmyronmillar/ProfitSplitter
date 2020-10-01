@@ -41,6 +41,6 @@ contract AssociateProfitSplitter {
 
     function() external payable {
         // @TODO: Enforce that the `deposit` function is called in the fallback function!
-        deposit;
+        deposit(employee_one, employee_two, employee_three);
     }
 }
