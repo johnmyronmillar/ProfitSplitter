@@ -52,6 +52,6 @@ contract TieredProfitSplitter {
     }
 
     function() external payable {
-        deposit();
+        deposit(employee_one, employee_two, employee_three);
     }
 }
